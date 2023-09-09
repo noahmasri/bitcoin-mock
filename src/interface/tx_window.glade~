@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkWindow" id="tx_window">
+    <property name="width-request">550</property>
+    <property name="height-request">500</property>
+    <property name="can-focus">False</property>
+    <property name="title" translatable="yes">Transaction information</property>
+    <property name="resizable">False</property>
+    <property name="default-width">800</property>
+    <property name="default-height">900</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">100</property>
+            <property name="height-request">10</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Transaction ID:</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 11"/>
+              <attribute name="underline" value="True"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">30</property>
+            <property name="y">40</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">100</property>
+            <property name="height-request">10</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Amount:</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 11"/>
+              <attribute name="underline" value="True"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">30</property>
+            <property name="y">70</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="txid_label">
+            <property name="width-request">100</property>
+            <property name="height-request">10</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">-</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 11"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">133</property>
+            <property name="y">40</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="amount_label">
+            <property name="width-request">100</property>
+            <property name="height-request">10</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">-</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 11"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">133</property>
+            <property name="y">80</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="raw_label">
+            <property name="width-request">600</property>
+            <property name="height-request">200</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">-</property>
+            <property name="wrap">True</property>
+            <property name="wrap-mode">char</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 10"/>
+              <attribute name="foreground" value="#757550507b7b"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">22</property>
+            <property name="y">215</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">100</property>
+            <property name="height-request">10</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">State</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 11"/>
+              <attribute name="underline" value="True"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">30</property>
+            <property name="y">100</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">100</property>
+            <property name="height-request">10</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Block:</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 11"/>
+              <attribute name="underline" value="True"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">30</property>
+            <property name="y">130</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="block_label">
+            <property name="width-request">100</property>
+            <property name="height-request">10</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">-</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 11"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">133</property>
+            <property name="y">130</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="state_label">
+            <property name="width-request">100</property>
+            <property name="height-request">10</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">-</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 11"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">133</property>
+            <property name="y">100</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width-request">100</property>
+            <property name="height-request">10</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Raw:</property>
+            <attributes>
+              <attribute name="font-desc" value="Ubuntu 11"/>
+              <attribute name="underline" value="True"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">10</property>
+            <property name="y">188</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

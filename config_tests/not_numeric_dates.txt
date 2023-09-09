@@ -1,0 +1,4 @@
+IP_ADDRESS=192.168.1.136
+PORT=63
+LOG_FILE=pruebas_config/log.txt
+START_DATE=2001-April-5
